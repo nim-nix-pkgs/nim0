@@ -11,6 +11,7 @@
   inputs.src-nim0-master.ref   = "refs/heads/master";
   inputs.src-nim0-master.owner = "pmetras";
   inputs.src-nim0-master.repo  = "nim0";
+  inputs.src-nim0-master.dir   = "";
   inputs.src-nim0-master.type  = "gitlab";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
