@@ -21,33 +21,6 @@
         "type": "github"
       }
     },
-    "nim0-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ],
-        "src-nim0-master": "src-nim0-master"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1656297892,
-        "narHash": "sha256-EQSKQqD1Y6uvVve9qdFjNfhXI4xKNgWJQAsGXzjZhxY=",
-        "owner": "nim-nix-pkgs",
-        "repo": "nim0",
-        "rev": "8ca185880eaeb7350cb39b74aa2fc3f732b212c1",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "nim0",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
         "lastModified": 0,
@@ -63,25 +36,7 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
-        "nim0-master": "nim0-master",
         "nixpkgs": "nixpkgs"
-      }
-    },
-    "src-nim0-master": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1619481768,
-        "narHash": "sha256-/pFdrzw8ZppFAbt1ub8yfRvOdT+J7j8Nu8TQ7dkxbYc=",
-        "owner": "pmetras",
-        "repo": "nim0",
-        "rev": "90aece0274f3919fbaa39c4e3cd744edd902f146",
-        "type": "gitlab"
-      },
-      "original": {
-        "owner": "pmetras",
-        "ref": "refs/heads/master",
-        "repo": "nim0",
-        "type": "gitlab"
       }
     }
   },
